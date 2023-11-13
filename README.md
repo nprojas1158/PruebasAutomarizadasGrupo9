@@ -1,11 +1,14 @@
 Testing README
 ---
 
-*Cypress
+#  Cypress
 
-Descripción:  Este repositorio contiene pruebas automatizadas utilizando Cypress, un framework de pruebas de extremo a extremo para aplicaciones web modernas.
+### Descripción:  
+Este repositorio contiene pruebas automatizadas utilizando Cypress, un framework de pruebas de extremo a extremo para aplicaciones web modernas.
 
-Requisitos Previos: Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+### Requisitos Previos: 
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 
 Clona este repositorio
 
@@ -13,7 +16,7 @@ Navega al directorio del proyecto
 
 Instala las dependencias: npm install
 
-Ejecución de Pruebas
+### Ejecución de Pruebas
 
 Para ejecutar las pruebas, utiliza el siguiente comando: npm run cypress:open
 
@@ -25,11 +28,11 @@ npm run cypress:run
 
 
 ---
-*Kraken 
+# Kraken 
 
 Instalar Kraken desde el manejador de dependencias
 
-Requisitos Previos: Prerequisitos: 
+### Requisitos Previos: Prerequisitos: 
 1. Usar la versión 16.14.2 de Node.Js
 2. Tener instalado Android Studio
 3. En las propiedades de Android Studio tener instalado:
@@ -39,7 +42,7 @@ Requisitos Previos: Prerequisitos:
 4. Configurar la siguiente variable ambiental:
 	JAVA_HOME: C:\Program Files\Android\Android Studio\jre
 
-Instalación e instalación de Kraken: 
+### Instalación e instalación de Kraken: 
 1. Ir a la carpeta de trabajo (En este caso, la carpeta de Ghost o del release)
 2. Sí aun no lo tiene, debe instalar Kraken en global: npm install kraken-node -g
 3. Inicializar Kraken: kraken-node gen
@@ -47,5 +50,25 @@ Instalación e instalación de Kraken:
 5. Instalar Appium en global: npm install -g appium
 6. Puede verificar que todo haya quedado instalado usando el comando kraken-node doctor
 
-Ejecutar Kraken e iniciar el escenario con los scripts de este repositorio, se ejecuta: kraken-node run ó con el comando ./node_modules/kraken-node/bin/kraken-node run
+Ejecutar Kraken e iniciar el escenario con los scripts de este repositorio, se ejecuta: kraken-node run
+
+---
+# Puppeteer 
+
+### Descripción
+
+Este repositorio contiene pruebas automatizadas utilizando Puppeteer, una biblioteca de control para Node.js que proporciona una interfaz de alto nivel para controlar los navegadores Chrome o Chromium a través del protocolo DevTools.
+
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+
+1. Clona este repositorio
+2. Navega al directorio del proyecto
+3. Instala las dependencias
+
+### Ejecución de Pruebas
+
+Para ejecutar las pruebas, utiliza el siguiente comando: npm test
+
 
