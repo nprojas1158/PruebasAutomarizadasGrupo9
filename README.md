@@ -1,4 +1,5 @@
 Testing README
+---
 
 Cypress
 
@@ -23,12 +24,11 @@ npm run cypress:run
 
 
 
-
+---
 Kraken 
+
 Instalar Kraken desde el manejador de dependencias
-Para instalar la herramienta, abra una terminal e ingrese el siguiente comando:
 
-npm install kraken-node -g
+Para instalar la herramienta, abra una terminal e ingrese el siguiente comando: npm install kraken-node -g
 
-Ejecutar Kraken e iniciar el escenario 
-kraken-node run
+Ejecutar Kraken e iniciar el escenario: kraken-node run
