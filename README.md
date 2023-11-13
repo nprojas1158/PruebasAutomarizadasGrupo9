@@ -1,3 +1,10 @@
+# Grupo 9
+
+Natalia Rojas - np.rojas1158@uniandes.edu.co 	
+Juan Diego Lugo - jd.lugo@uniandes.edu.co 
+Mateo Jaramillo - m.jaramillos2@uniandes.edu.co 
+María Scoth - j.scoth@uniandes.edu.co
+
 Testing README
 ---
 
