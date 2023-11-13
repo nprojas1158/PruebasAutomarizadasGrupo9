@@ -32,6 +32,8 @@ Esto abrirá la interfaz gráfica de Cypress, desde donde podrás ejecutar las p
 Si prefieres ejecutar las pruebas en modo de línea de comandos, utiliza:
 npm run cypress:run
 
+Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
+
 
 
 ---
