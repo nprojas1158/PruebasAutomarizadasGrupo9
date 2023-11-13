@@ -47,5 +47,5 @@ Instalación e instalación de Kraken:
 5. Instalar Appium en global: npm install -g appium
 6. Puede verificar que todo haya quedado instalado usando el comando kraken-node doctor
 
-Ejecutar Kraken e iniciar el escenario con los scripts de este repositorio, se ejecuta: kraken-node run ó ./node_modules/kraken-node/bin/kraken-node run
+Ejecutar Kraken e iniciar el escenario con los scripts de este repositorio, se ejecuta: kraken-node run ó con el comando ./node_modules/kraken-node/bin/kraken-node run
 
