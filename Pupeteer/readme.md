@@ -1,3 +1,6 @@
+### Config
+Change the login, password and URL in the config.js file
+### Install
 * Install dependencies and run all test executing the run_test.bat
 * Or for run individual tests install with 
 ```
