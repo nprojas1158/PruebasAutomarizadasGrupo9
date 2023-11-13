@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer'); // v20.7.4 or later
 const assert = require('assert');
+const { email, password, ghost_url } = require('../config.js');
 
 (async () => {
     const browser = await puppeteer.launch({headless: 'new'});
@@ -21,7 +22,7 @@ const assert = require('assert');
             promises.push(targetPage.waitForNavigation());
         }
         startWaitingForEvents();
-        await targetPage.goto('http://localhost:2368/ghost/#/signin');
+        await targetPage.goto(ghost_url);
         await Promise.all(promises);
     }
     {
@@ -51,7 +52,7 @@ const assert = require('assert');
             targetPage.locator('::-p-aria(Email address)')
         ])
             .setTimeout(timeout)
-            .fill('jd.lugo@uniandes.edu.co');
+            .fill(email);
             await page.screenshot({path: './results/pagina2.png'})
     }
     {
@@ -80,7 +81,7 @@ const assert = require('assert');
             targetPage.locator('::-p-aria(Password)')
         ])
             .setTimeout(timeout)
-            .fill('%Ad#3MZ~?d"Q)Jd');
+            .fill(password);
     }
     {
         const targetPage = page;
