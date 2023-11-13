@@ -76,10 +76,9 @@ Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 
 1. Clona este repositorio
 2. Navega al directorio del proyecto
-3. Instala las dependencias
 
 ### Ejecución de Pruebas
 
-Para ejecutar las pruebas, utiliza el siguiente comando: npm test
+Leer las indicaciones en el readme de la carpeta pupeteer
 
 
