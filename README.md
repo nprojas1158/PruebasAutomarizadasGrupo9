@@ -83,4 +83,5 @@ Leer las indicaciones en el readme de la carpeta pupeteer
 
 # SEMANA 6
 
-
+Las pruebas se desplegaron en una instancia de AWS para facilitar el proceso de configuración. 
+Para acceder a este 
