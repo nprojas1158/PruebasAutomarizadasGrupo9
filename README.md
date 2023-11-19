@@ -5,8 +5,10 @@
 3. Mateo Jaramillo - m.jaramillos2@uniandes.edu.co 
 4. María Scoth - j.scoth@uniandes.edu.co
 
-Testing README
----
+# Testing README
+
+----
+
 # SEMANA 5
 #  Cypress
 
@@ -34,9 +36,6 @@ npm run cypress:run
 
 Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
 
-
-
----
 # Kraken 
 
 Instalar Kraken desde el manejador de dependencias
@@ -63,7 +62,6 @@ Ejecutar Kraken e iniciar el escenario con los scripts de este repositorio, se e
 
 En la carpeta en la que instaló Kraken pegue el archivo properties.json y la carpeta features que están publicados en este repositorio. El archivo json debe quedar en la carpeta raíz, donde se encuentran las carpetas features y node_modules. Puede cambiar el nombre de la carpeta original de features y pegar la carpeta de features de este repositorio, pues allí se encuentran todos los scripts de los features implementados. Estos son todos los archivos requeridos para correr los escenarios implementados. Tenga en cuenta que no corren secuencialmente sino, que debe ser uno por uno.   
 
----
 # Puppeteer 
 
 ### Descripción
@@ -80,6 +78,8 @@ Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 ### Ejecución de Pruebas
 
 Leer las indicaciones en el readme de la carpeta pupeteer
+
+------
 
 # SEMANA 6
 
@@ -122,15 +122,15 @@ Debe observar que la aplicación de Ghost funciona correctamente
 
 En caso de que requiera los datos del usuario administrador, en la carpeta Documentos de la instancia puede encontrarlos. Se usa el mismo usuario para las dos versiones.
 
----
+
 # Kraken
 
 
----
+
 # Cypress
 
 
----
+
 # Puppeteer
 
 
