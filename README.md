@@ -127,8 +127,11 @@ Password: uniandes23
 # Kraken
 
 Para ejecutar los escenarios de kraken en el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
+
 Haga clic derecho sobre la carpeta de kraken y seleccione la opción abrir GIT Bash Here.
-Una vez se abre la ventana digite el siguiente comando para correr los escenarios: ./node_modules/kraken-node/bin/kraken-node run
+
+Una vez se abre la ventana digite el siguiente comando para correr los escenarios: kraken-node run
+
 Nota: 1. Para que funcione kraken debe correrse desde GIT, desde otra consola no nos funcionó
       2. Los escenarios se encuentran en la carpeta features y deben correrse uno a uno.
 	
