@@ -4,8 +4,9 @@
 * Install Ubuntu for WSL in v22.04.3 LTS
 ### In Ubuntu
 * Install Node JS v18.12.1
+* Install NPM v8.19.2
 * Install MySQL
-* Install Ghost-CLI 1.25.3
+* Install Ghost-CLI v1.25.3
 * Install Ghost v5.72.2
 * Go through the installation process of Ghost and MySQL
 * Start Ghost
