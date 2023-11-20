@@ -5,9 +5,11 @@
 3. Mateo Jaramillo - m.jaramillos2@uniandes.edu.co 
 4. María Scoth - j.scoth@uniandes.edu.co
 
-Testing README
----
+# Testing README
 
+----
+
+# SEMANA 5
 #  Cypress
 
 ### Descripción:  
@@ -34,9 +36,6 @@ npm run cypress:run
 
 Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
 
-
-
----
 # Kraken 
 
 Instalar Kraken desde el manejador de dependencias
@@ -63,7 +62,6 @@ Ejecutar Kraken e iniciar el escenario con los scripts de este repositorio, se e
 
 En la carpeta en la que instaló Kraken pegue el archivo properties.json y la carpeta features que están publicados en este repositorio. El archivo json debe quedar en la carpeta raíz, donde se encuentran las carpetas features y node_modules. Puede cambiar el nombre de la carpeta original de features y pegar la carpeta de features de este repositorio, pues allí se encuentran todos los scripts de los features implementados. Estos son todos los archivos requeridos para correr los escenarios implementados. Tenga en cuenta que no corren secuencialmente sino, que debe ser uno por uno.   
 
----
 # Puppeteer 
 
 ### Descripción
@@ -80,5 +78,71 @@ Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 ### Ejecución de Pruebas
 
 Leer las indicaciones en el readme de la carpeta pupeteer
+
+------
+
+# SEMANA 6
+
+Las pruebas se desplegaron en una instancia de AWS para facilitar el proceso de configuración. 
+Para acceder a éste tenemos dos opiciones:
+
+1. En la rama main descargue el archivo PruebasAutomatizadas(1).rdp, haga clic en Connect e ingrese esta contraseña: MWPRpUiUnvMLOK8Y7%?aiauKgJB5IiX=
+2. Ingrese por Escritorio Remoto con los siguientes datos:
+   Computer: ec2-52-14-190-121.us-east-2.compute.amazonaws.com
+   Usuario: Administrator
+   Contraseña: MWPRpUiUnvMLOK8Y7%?aiauKgJB5IiX=
+   Le aparecerá una ventana de warning por el certificado; haga clic en Yes.
+
+
+### GHOST y configuración
+
+Se prueba con las versiones de Ghost 5.68 y 5.73.2 
+Para la configuración del entorno de pruebas se usan las siguientes versiones:
+1. nvm: 16.20.2
+2. npm: 10.1
+3. node.js: 18.18.2
+
+Para correr Ghost 5.73.2 abra una consola de comandos (cmd) y ejecute el comando: cd C:\Users\Administrator\ghost1
+Una vez se encuentre ubicado en la carpeta, ingrese el comando: ghost start
+Iniciará el proceso de despliegue y al finalizar le debe aparecer el siguiente mensaje:
+	Your admin interface is located at: http://localhost:2368/ghost/
+Adicionalmente debe abrir una ventan de node.js
+Esto indica que se desplegó correctamente la aplicación.
+Abra un navegador, puede ser Chrome y en una pestaña ejecute esta url: http://localhost:2368/ghost/
+Debe observar que la aplicación de Ghost funciona correctamente
+
+Para correr Ghost 5.68 abra una consola de comandos (cmd) y ejecute el comando: cd C:\Users\Administrator\ghost2
+Una vez se encuentre ubicado en la carpeta, ingrese el comando: ghost start
+Iniciará el proceso de despliegue y al finalizar le debe aparecer el siguiente mensaje:
+	Your admin interface is located at: http://localhost:2369/ghost/
+Adicionalmente debe abrir una ventan de node.js
+Esto indica que se desplegó correctamente la aplicación.
+Abra un navegador, puede ser Chrome y en una pestaña ejecute esta url: http://localhost:2369/ghost/
+Debe observar que la aplicación de Ghost funciona correctamente
+
+En caso de que requiera los datos del usuario administrador para ingresar a Ghost son los siguientes:
+Usuario: nata.rojas7@gmail.com
+Password: uniandes23
+
+# Kraken
+
+Para ejecutar los escenarios de kraken en el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
+
+Haga clic derecho sobre la carpeta de kraken y seleccione la opción abrir GIT Bash Here.
+
+Una vez se abre la ventana digite el siguiente comando para correr los escenarios: kraken-node run
+
+Nota: 1. Para que funcione kraken debe correrse desde GIT, desde otra consola no nos funcionó
+      2. Los escenarios se encuentran en la carpeta features y deben correrse uno a uno.
+	
+
+
+# Cypress
+
+
+
+# Puppeteer
+
+
 
 
