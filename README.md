@@ -86,11 +86,8 @@ Leer las indicaciones en el readme de la carpeta pupeteer
 Las pruebas se desplegaron en una instancia de AWS para facilitar el proceso de configuración. 
 Para acceder a éste tenemos dos opiciones:
 
-1. En la rama main descargue el archivo PruebasAutomatizadas(1).rdp, haga clic en Connect e ingrese esta contraseña: MWPRpUiUnvMLOK8Y7%?aiauKgJB5IiX=
-2. Ingrese por Escritorio Remoto con los siguientes datos:
-   Computer: ec2-52-14-190-121.us-east-2.compute.amazonaws.com
-   Usuario: Administrator
-   Contraseña: MWPRpUiUnvMLOK8Y7%?aiauKgJB5IiX=
+1. En la rama main descargue el archivo PruebasAutomatizadas(1).rdp, haga clic en Connect e ingrese la contraseña que se envió en la entrega por Coursera.
+2. Ingrese por Escritorio Remoto con lo datos que se enviaron en la entrega por Coursera. Los datos corresponden a Computer, Usuario y Contraseña.
    Le aparecerá una ventana de warning por el certificado; haga clic en Yes.
 
 
@@ -120,17 +117,33 @@ Esto indica que se desplegó correctamente la aplicación.
 Abra un navegador, puede ser Chrome y en una pestaña ejecute esta url: http://localhost:2369/ghost/
 Debe observar que la aplicación de Ghost funciona correctamente
 
-En caso de que requiera los datos del usuario administrador para ingresar a Ghost son los siguientes:
-Usuario: nata.rojas7@gmail.com
-Password: uniandes23
+En caso de que requiera los datos del usuario administrador para ingresar a Ghost se enviaron por el link de entrega de Coursera.
+
+### BackstopJS test
+Asegurese de tener instalado backstopjs en su computador, en caso de no tenerlo utilice el comando
+```
+npm install -g backstopjs
+```
+Para hacer uso de la herramienta de backstop debe correr los test de Cypress y obtener las carpetas con las capturas de pantalla, posteriormente copiar el archivo .bat y ejecutarlo dentro de cada una de las carpetas de los test. Finalmente tome todas las imagenes y reemplace las que están en la carpeta Cypress/backstop/backstop_data/2368/'nombre del test', una vez hecho esto con una terminal de comandos (CMD) acceda a la carpeta Cypress/backstop y utilice el comando: 
+```
+backstop test
+```
+El informe HTML se debe desplegar automaticamente en su navegador, puede ver el informe generado en la ultima ejecución en:
+Cypress/backstop/backstop_data/html_report/index.html
+
+### Ventajas y desventajas
+https://github.com/nprojas1158/PruebasAutomarizadasGrupo9/wiki
 
 # Kraken
 
-Para ejecutar los escenarios de kraken en el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
+Para ejecutar los escenarios de kraken abra una consola de comandos e ingrese el comando: nvm use 16.20.2
+*Para las demás herramientas utilice el comando: nvm use 18.18.1
 
-Haga clic derecho sobre la carpeta de kraken y seleccione la opción abrir GIT Bash Here.
+En el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
 
-Una vez se abre la ventana digite el siguiente comando para correr los escenarios: kraken-node run
+Haga clic derecho sobre la carpeta de kraken2 y seleccione la opción abrir GIT Bash Here.
+
+Una vez se abre la ventana digite el siguiente comando para correr los escenarios: kraken-node run ó el comando ./node_modules/kraken-node/bin/kraken-node run
 
 Nota: 1. Para que funcione kraken debe correrse desde GIT, desde otra consola no nos funcionó
       2. Los escenarios se encuentran en la carpeta features y deben correrse uno a uno.
@@ -139,10 +152,41 @@ Nota: 1. Para que funcione kraken debe correrse desde GIT, desde otra consola no
 
 # Cypress
 
+Versión Cypress 13.5.1
+Versión nodeJs 18.18.1
+versión npm 9.8.1 
+
+En la carpeta de cypress que se encuentra en el repositorio, PruebasAutomarizadasGrupo9\Cypress\cypress\integration\PageObject hay una archivo paginaInicioSesion.js modifique el puerto de la url en cy.visit() 
+ya sea para ejecutarlo por 2368 (Version ghost 5.73.2) o 2369(Version ghost 5.68)
+
+1.Abrir una terminal y ejecutar el siguiente comando cypress open 
+2. en la ventana de la aplicación de cypress seleccione el proyecto donde tiene los casos de prueba 
+3. Seleccione la opcion de E2E testing 
+4. Seleccione el navegador con el que deseea realizar las pruebas
+5. Dar clic en el botón Start E2E Testing 
+6. Seleccione el archivo monkey_testing.cy.js
+7. Espere a que finalice la ejecucion y verifique que se haya creado los screenshots de las pruebas
 
 
 # Puppeteer
+### Descripción
 
+Este repositorio contiene pruebas automatizadas utilizando Puppeteer, una biblioteca de control para Node.js que proporciona una interfaz de alto nivel para controlar los navegadores Chrome o Chromium a través del protocolo DevTools.
+
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+
+1. Clona este repositorio
+2. Navega al directorio del proyecto
+
+### Ejecución de Pruebas
+
+Leer las indicaciones en el readme de la carpeta pupeteer
+
+# Video Semana 6
+
+https://youtu.be/oSWLCKBnrak
 
 
 
