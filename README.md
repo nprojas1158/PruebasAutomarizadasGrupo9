@@ -124,6 +124,18 @@ En caso de que requiera los datos del usuario administrador para ingresar a Ghos
 Usuario: nata.rojas7@gmail.com
 Password: uniandes23
 
+### BackstopJS test
+Asegurese de tener instalado backstopjs en su computador, en caso de no tenerlo utilice el comando
+```
+npm install -g backstopjs
+```
+Para hacer uso de la herramienta de backstop debe correr los test de Cypress y obtener las carpetas con las capturas de pantalla, posteriormente copiar el archivo .bat y ejecutarlo dentro de cada una de las carpetas de los test. Finalmente tome todas las imagenes y reemplace las que están en la carpeta Cypress/backstop/backstop_data/2368/'nombre del test', una vez hecho esto con una terminal de comandos (CMD) acceda a la carpeta Cypress/backstop y utilice el comando: 
+```
+backstop test
+```
+El informe HTML se debe desplegar automaticamente en su navegador, puede ver el informe generado en la ultima ejecución en:
+Cypress/backstop/backstop_data/html_report/index.html
+
 # Kraken
 
 Para ejecutar los escenarios de kraken en el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
