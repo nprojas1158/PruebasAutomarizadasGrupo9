@@ -1,4 +1,12 @@
 # Set Up
+Tested in Edition	Windows 11 Pro Insider Preview
+Version	23H2
+Installed on	‎19/‎11/‎2023
+OS build	25992.1000
+Experience	Windows Feature Experience Pack 1000.25992.1000.0
+Processor	AMD Ryzen 5 3600 6-Core Processor                 3.60 GHz
+Installed RAM	16,0 GB
+
 ## For Windows follow the steps
 * Install WLS v1.2.5.0
 * Install Ubuntu for WSL in v22.04.3 LTS
