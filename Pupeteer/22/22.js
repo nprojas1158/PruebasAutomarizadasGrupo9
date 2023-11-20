@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer'); // v20.7.4 or later
 const assert = require('assert');
-const { email, password, ghost_url } = require('../config.js');
+const { email, password, ghost_url, blog_name } = require('../config.js');
 
 (async () => {
     const browser = await puppeteer.launch({headless: 'new'});

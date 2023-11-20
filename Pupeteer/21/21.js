@@ -22,7 +22,7 @@ const { email, password, ghost_url } = require('../config.js');
             promises.push(targetPage.waitForNavigation());
         }
         startWaitingForEvents();
-        await targetPage.goto('http://localhost:2368/ghost/#/signin');
+        await targetPage.goto(ghost_url);
         await Promise.all(promises);
     }
     {
@@ -51,7 +51,7 @@ const { email, password, ghost_url } = require('../config.js');
             targetPage.locator('::-p-aria(Email address)')
         ])
             .setTimeout(timeout)
-            .fill('jd.lugo@uniandes.edu.co');
+            .fill(email);
             await page.screenshot({path: './results/pagina1.png'});
     }
     {
@@ -80,7 +80,7 @@ const { email, password, ghost_url } = require('../config.js');
             targetPage.locator('::-p-aria(Password)')
         ])
             .setTimeout(timeout)
-            .fill('%Ad#3MZ~?d"Q)Jd');
+            .fill(password);
             await page.screenshot({path: './results/pagina3.png'});
     }
     {
