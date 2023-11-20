@@ -1,3 +1,4 @@
+@echo off
 echo ############ Instalando librerias ############
 echo #
 call npm install
@@ -5,7 +6,6 @@ echo #
 echo ############ Librerias instaladas ############
 echo #
 echo #
-@echo off
 echo Ejecutando el test #21
 cd 21
 node 21.js
@@ -65,3 +65,4 @@ cd 30
 node 30.js
 cd ..
 echo Test #30 finalizado - Ver ./30esults
+set /p answer= Do you want to create it now (Y/N)?
