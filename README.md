@@ -186,5 +186,7 @@ Leer las indicaciones en el readme de la carpeta pupeteer
 
 # Video Semana 6
 
+https://youtu.be/oSWLCKBnrak
+
 
 
