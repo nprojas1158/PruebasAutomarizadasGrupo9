@@ -136,6 +136,9 @@ backstop test
 El informe HTML se debe desplegar automaticamente en su navegador, puede ver el informe generado en la ultima ejecución en:
 Cypress/backstop/backstop_data/html_report/index.html
 
+### Ventajas y desventajas
+https://github.com/nprojas1158/PruebasAutomarizadasGrupo9/wiki
+
 # Kraken
 
 Para ejecutar los escenarios de kraken en el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
@@ -168,6 +171,20 @@ ya sea para ejecutarlo por 2368 (Version ghost 5.73.2) o 2369(Version ghost 5.68
 
 
 # Puppeteer
+### Descripción
+
+Este repositorio contiene pruebas automatizadas utilizando Puppeteer, una biblioteca de control para Node.js que proporciona una interfaz de alto nivel para controlar los navegadores Chrome o Chromium a través del protocolo DevTools.
+
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+
+1. Clona este repositorio
+2. Navega al directorio del proyecto
+
+### Ejecución de Pruebas
+
+Leer las indicaciones en el readme de la carpeta pupeteer
 
 
 
