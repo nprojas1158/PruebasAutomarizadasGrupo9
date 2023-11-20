@@ -27,7 +27,8 @@ Installed RAM	16,0 GB
 * Change the config.js and replace all the info with your admin user info and URL
 
 # Run
-For running the tests you have two options
+For running the tests you have two options, either way the npm install should install all the dependencies in the used version
+i.e. puppeteer: ^21.5.0
 * Install dependencies and run all test executing the run_test.bat
 * Or for run individual tests install with 
 ```
