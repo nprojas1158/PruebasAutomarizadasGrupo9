@@ -86,11 +86,8 @@ Leer las indicaciones en el readme de la carpeta pupeteer
 Las pruebas se desplegaron en una instancia de AWS para facilitar el proceso de configuración. 
 Para acceder a éste tenemos dos opiciones:
 
-1. En la rama main descargue el archivo PruebasAutomatizadas(1).rdp, haga clic en Connect e ingrese esta contraseña: MWPRpUiUnvMLOK8Y7%?aiauKgJB5IiX=
-2. Ingrese por Escritorio Remoto con los siguientes datos:
-   Computer: ec2-52-14-190-121.us-east-2.compute.amazonaws.com
-   Usuario: Administrator
-   Contraseña: MWPRpUiUnvMLOK8Y7%?aiauKgJB5IiX=
+1. En la rama main descargue el archivo PruebasAutomatizadas(1).rdp, haga clic en Connect e ingrese la contraseña que se envió en la entrega por Coursera.
+2. Ingrese por Escritorio Remoto con lo datos que se enviaron en la entrega por Coursera. Los datos corresponden a Computer, Usuario y Contraseña.
    Le aparecerá una ventana de warning por el certificado; haga clic en Yes.
 
 
@@ -120,9 +117,7 @@ Esto indica que se desplegó correctamente la aplicación.
 Abra un navegador, puede ser Chrome y en una pestaña ejecute esta url: http://localhost:2369/ghost/
 Debe observar que la aplicación de Ghost funciona correctamente
 
-En caso de que requiera los datos del usuario administrador para ingresar a Ghost son los siguientes:
-Usuario: nata.rojas7@gmail.com
-Password: uniandes23
+En caso de que requiera los datos del usuario administrador para ingresar a Ghost se enviaron por el link de entrega de Coursera.
 
 ### BackstopJS test
 Asegurese de tener instalado backstopjs en su computador, en caso de no tenerlo utilice el comando
@@ -141,11 +136,14 @@ https://github.com/nprojas1158/PruebasAutomarizadasGrupo9/wiki
 
 # Kraken
 
-Para ejecutar los escenarios de kraken en el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
+Para ejecutar los escenarios de kraken abra una consola de comandos e ingrese el comando: nvm use 16.20.2
+*Para las demás herramientas utilice el comando: nvm use 18.18.1
 
-Haga clic derecho sobre la carpeta de kraken y seleccione la opción abrir GIT Bash Here.
+En el explorador de archivos diríjase a la siguiente ubicación: C:\Users\Administrator
 
-Una vez se abre la ventana digite el siguiente comando para correr los escenarios: kraken-node run
+Haga clic derecho sobre la carpeta de kraken2 y seleccione la opción abrir GIT Bash Here.
+
+Una vez se abre la ventana digite el siguiente comando para correr los escenarios: kraken-node run ó el comando ./node_modules/kraken-node/bin/kraken-node run
 
 Nota: 1. Para que funcione kraken debe correrse desde GIT, desde otra consola no nos funcionó
       2. Los escenarios se encuentran en la carpeta features y deben correrse uno a uno.
