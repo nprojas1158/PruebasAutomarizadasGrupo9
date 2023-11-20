@@ -28,7 +28,7 @@ Installed RAM	16,0 GB
 
 # Run
 For running the tests you have two options, either way the npm install should install all the dependencies in the used version
-i.e. puppeteer: ^21.5.0
+i.e. puppeteer: ^21.5.0 if you want to see all the versions of the dependencies installed can take a look to the package-lock.json 
 * Install dependencies and run all test executing the run_test.bat
 * Or for run individual tests install with 
 ```
