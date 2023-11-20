@@ -1,7 +1,7 @@
 # Set Up
 ## For Windows follow the steps
 * Install WLS v1.2.5.0
-* Install Ubuntu for WSL in v22.04.3
+* Install Ubuntu for WSL in v22.04.3 LTS
 ### In Ubuntu
 * Install Node JS v18.12.1
 * Install MySQL
