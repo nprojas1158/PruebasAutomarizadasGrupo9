@@ -12,7 +12,7 @@
 * Start Ghost
 ### Back in Windows
 * Install Node JS v21.1.0
-* Install Google Chrome
+* Install Google Chrome v119.0.6045.160
 * Go to the URL configured for Ghost in the installation process
 * Create the admin user
 * Download the repo
