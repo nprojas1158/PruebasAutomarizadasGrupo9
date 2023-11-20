@@ -139,6 +139,20 @@ Nota: 1. Para que funcione kraken debe correrse desde GIT, desde otra consola no
 
 # Cypress
 
+Versión Cypress 13.5.1
+Versión nodeJs 18.18.1
+versión npm 9.8.1 
+
+En la carpeta de cypress que se encuentra en el repositorio, PruebasAutomarizadasGrupo9\Cypress\cypress\integration\PageObject hay una archivo paginaInicioSesion.js modifique el puerto de la url en cy.visit() 
+ya sea para ejecutarlo por 2368 (Version ghost 5.73.2) o 2369(Version ghost 5.68)
+
+Abrir una terminal y ejecutar el siguiente comando cypress open 
+en la ventana de la aplicación de cypress seleccione el proyecto donde tiene los casos de prueba 
+Seleccione la opcion de E2E testing 
+Seleccione el navegador con el que deseea realizar las pruebas
+Dar clic en el botón Start E2E Testing 
+Seleccione el archivo monkey_testing.cy.js
+Espere a que finalice la ejecucion y verifique que se haya creado los screenshots de las pruebas
 
 
 # Puppeteer
