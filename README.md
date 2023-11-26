@@ -188,7 +188,7 @@ Leer las indicaciones en el readme de la carpeta pupeteer
 
 https://youtu.be/oSWLCKBnrak
 
-#semana 7
+# semana 7
 #  Cypress
 
 ### Descripción:  
