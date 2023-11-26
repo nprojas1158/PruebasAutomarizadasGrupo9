@@ -188,5 +188,33 @@ Leer las indicaciones en el readme de la carpeta pupeteer
 
 https://youtu.be/oSWLCKBnrak
 
+#semana 7
+#  Cypress
+
+### Descripción:  
+Este repositorio contiene pruebas automatizadas utilizando Cypress, un framework de pruebas de extremo a extremo para aplicaciones web modernas.
+
+### Requisitos Previos: 
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+
+Clona este repositorio
+
+Navega al directorio del proyecto
+
+Instala las dependencias: npm install
+
+### Ejecución de Pruebas
+
+Para ejecutar las pruebas, utiliza el siguiente comando: npm run cypress:open
+
+Esto abrirá la interfaz gráfica de Cypress, desde donde podrás ejecutar las pruebas de forma interactiva, selecciona uno a uno los archivos con extención cy.js.
+
+Si prefieres ejecutar las pruebas en modo de línea de comandos, utiliza:
+npm run cypress:run
+
+Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
+
+
 
 
