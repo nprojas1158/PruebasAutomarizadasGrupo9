@@ -215,6 +215,19 @@ npm run cypress:run
 
 Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
 
+# Puppeteer
+### Descripción
+
+Este repositorio contiene pruebas automatizadas utilizando Puppeteer, una biblioteca de control para Node.js que proporciona una interfaz de alto nivel para controlar los navegadores Chrome o Chromium a través del protocolo DevTools.
+
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+
+1. Clona este repositorio
+2. Navega al directorio del proyecto
+3. Leer README dentro del directorio
+
 
 
 
