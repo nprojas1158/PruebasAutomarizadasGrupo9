@@ -225,7 +225,7 @@ Este repositorio contiene pruebas automatizadas utilizando Puppeteer, una biblio
 Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 
 1. Clona este repositorio
-2. Navega al directorio del proyecto
+2. Navega al directorio del proyecto a Puppeteer/Semana 7
 3. Leer README dentro del directorio
 
 
