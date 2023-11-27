@@ -8,14 +8,20 @@ Processor	AMD Ryzen 5 3600 6-Core Processor                 3.60 GHz
 Installed RAM	16,0 GB
 
 ## For Windows follow the steps
-* Install WLS v1.2.5.0
-* Install Ubuntu for WSL in v22.04.3 LTS
+* Install WSL version: 2.0.9.0
+* Set up Kernel version: 5.15.133.1-1
+* Set up WSLg version: 1.0.59
+* Set up MSRDC version: 1.2.4677
+* Set up Direct3D version: 1.611.1-81528511
+* Set up DXCore version: 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp
+* Set up Windows version: 10.0.25997.1010
+* Install Ubuntu for WSL in v20.04.6 LTS
 ### In Ubuntu
-* Install Node JS v18.12.1
-* Install NPM v8.19.2
+* Install Node JS v18.17.1
+* Install NPM v9.6.7
 * Install MySQL
 * Install Ghost-CLI v1.25.3
-* Install Ghost v5.72.2
+* Install Ghost v5.68.0
 * Go through the installation process of Ghost and MySQL
 * Start Ghost
 ### Back in Windows
@@ -38,3 +44,4 @@ npm install
 ```
 node 'number_of_test'.js
 ```
+Due to the names of the test if you want to see in detail which is the scenary tested by every file you can see 'detalle de pruebas Puppeteer semana 7.pdf' and the wiki for the explanation of the generated data and the strategies
