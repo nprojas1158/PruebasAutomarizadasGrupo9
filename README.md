@@ -209,11 +209,25 @@ Instala las dependencias: npm install
 Para ejecutar las pruebas, utiliza el siguiente comando: npm run cypress:open
 
 Esto abrirá la interfaz gráfica de Cypress, desde donde podrás ejecutar las pruebas de forma interactiva, selecciona uno a uno los archivos con extención cy.js.
+Las carpetas en donde se encuentras las pruebas son: e2e, fixtures, e2e_A-Priori
 
 Si prefieres ejecutar las pruebas en modo de línea de comandos, utiliza:
 npm run cypress:run
 
 Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
+
+# Puppeteer
+### Descripción
+
+Este repositorio contiene pruebas automatizadas utilizando Puppeteer, una biblioteca de control para Node.js que proporciona una interfaz de alto nivel para controlar los navegadores Chrome o Chromium a través del protocolo DevTools.
+
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
+
+1. Clona este repositorio
+2. Navega al directorio del proyecto a Puppeteer/Semana 7
+3. Leer README dentro del directorio
 
 
 
