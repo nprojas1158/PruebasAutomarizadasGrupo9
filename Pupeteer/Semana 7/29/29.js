@@ -43,7 +43,7 @@ const { faker } = require('@faker-js/faker');
             });
             await page.screenshot({path: './results/pagina.png'});
     }
-    {
+    { 
         const targetPage = page;
         await puppeteer.Locator.race([
             targetPage.locator('#identification'),
