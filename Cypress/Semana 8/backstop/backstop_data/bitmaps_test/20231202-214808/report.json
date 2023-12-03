@@ -1,0 +1,398 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_CancelarCrearPath_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_CancelarCrearPath_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_CancelarCrearPath_1_0_document_0_default.png",
+        "label": "CancelarCrearPath 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/CancelarCrearPath/1.png",
+        "referenceUrl": "./backstop_data/2369/CancelarCrearPath/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_CancelarCrearPath_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_CancelarCrearPath_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_CancelarCrearPath_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_CancelarCrearPath_2_0_document_0_default.png",
+        "label": "CancelarCrearPath 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/CancelarCrearPath/2.png",
+        "referenceUrl": "./backstop_data/2369/CancelarCrearPath/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_CancelarCrearPath_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_CancelarCrearPath_3_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_CancelarCrearPath_3_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_CancelarCrearPath_3_0_document_0_default.png",
+        "label": "CancelarCrearPath 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/CancelarCrearPath/3.png",
+        "referenceUrl": "./backstop_data/2369/CancelarCrearPath/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_CancelarCrearPath_3_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_CancelarCrearPath_4_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_CancelarCrearPath_4_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_CancelarCrearPath_4_0_document_0_default.png",
+        "label": "CancelarCrearPath 4",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/CancelarCrearPath/4.png",
+        "referenceUrl": "./backstop_data/2369/CancelarCrearPath/4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_CancelarCrearPath_4_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_crearUnPath_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_crearUnPath_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_crearUnPath_1_0_document_0_default.png",
+        "label": "crearUnPath 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/crearUnPath/1.png",
+        "referenceUrl": "./backstop_data/2369/crearUnPath/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_crearUnPath_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_crearUnPath_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_crearUnPath_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_crearUnPath_2_0_document_0_default.png",
+        "label": "crearUnPath 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/crearUnPath/2.png",
+        "referenceUrl": "./backstop_data/2369/crearUnPath/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_crearUnPath_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_crearUnPath_3_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_crearUnPath_3_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_crearUnPath_3_0_document_0_default.png",
+        "label": "crearUnPath 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/crearUnPath/3.png",
+        "referenceUrl": "./backstop_data/2369/crearUnPath/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_crearUnPath_3_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_eliminarRunPath_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_eliminarRunPath_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_eliminarRunPath_1_0_document_0_default.png",
+        "label": "eliminarRunPath 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/eliminarRunPath/1.png",
+        "referenceUrl": "./backstop_data/2369/eliminarRunPath/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_eliminarRunPath_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_eliminarRunPath_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_eliminarRunPath_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_eliminarRunPath_2_0_document_0_default.png",
+        "label": "eliminarRunPath 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/eliminarRunPath/2.png",
+        "referenceUrl": "./backstop_data/2369/eliminarRunPath/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_eliminarRunPath_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_eliminarRunPath_3_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_eliminarRunPath_3_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_eliminarRunPath_3_0_document_0_default.png",
+        "label": "eliminarRunPath 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/eliminarRunPath/3.png",
+        "referenceUrl": "./backstop_data/2369/eliminarRunPath/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_eliminarRunPath_3_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Home_Page_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Home_Page_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Home_Page_1_0_document_0_default.png",
+        "label": "Home Page 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Home Page/1.png",
+        "referenceUrl": "./backstop_data/2369/Home Page/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Home_Page_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Home_Page_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Home_Page_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Home_Page_2_0_document_0_default.png",
+        "label": "Home Page 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Home Page/2.png",
+        "referenceUrl": "./backstop_data/2369/Home Page/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Home_Page_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Home_Page_3_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Home_Page_3_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Home_Page_3_0_document_0_default.png",
+        "label": "Home Page 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Home Page/3.png",
+        "referenceUrl": "./backstop_data/2369/Home Page/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Home_Page_3_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_ModificarURLinvalida_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_ModificarURLinvalida_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_ModificarURLinvalida_1_0_document_0_default.png",
+        "label": "ModificarURLinvalida 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/ModificarURLinvalida/1.png",
+        "referenceUrl": "./backstop_data/2369/ModificarURLinvalida/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_ModificarURLinvalida_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_ModificarURLinvalida_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_ModificarURLinvalida_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_ModificarURLinvalida_2_0_document_0_default.png",
+        "label": "ModificarURLinvalida 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/ModificarURLinvalida/2.png",
+        "referenceUrl": "./backstop_data/2369/ModificarURLinvalida/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_ModificarURLinvalida_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_ModificarURLinvalida_3_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_ModificarURLinvalida_3_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_ModificarURLinvalida_3_0_document_0_default.png",
+        "label": "ModificarURLinvalida 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/ModificarURLinvalida/3.png",
+        "referenceUrl": "./backstop_data/2369/ModificarURLinvalida/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_ModificarURLinvalida_3_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Home_Tag_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Home_Tag_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Screen_Home_Tag_1_0_document_0_default.png",
+        "label": "Screen Home Tag 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Home Tag/1.png",
+        "referenceUrl": "./backstop_data/2369/Screen Home Tag/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Home_Tag_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Home_Tag_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Home_Tag_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Screen_Home_Tag_2_0_document_0_default.png",
+        "label": "Screen Home Tag 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Home Tag/2.png",
+        "referenceUrl": "./backstop_data/2369/Screen Home Tag/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Home_Tag_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Home_Tag_3_0__0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Home_Tag_3_0__0_default.png",
+        "selector": "",
+        "fileName": "backstop_default_Screen_Home_Tag_3_0__0_default.png",
+        "label": "Screen Home Tag 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Home Tag/3.png",
+        "referenceUrl": "./backstop_data/2369/Screen Home Tag/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "net::ERR_FILE_NOT_FOUND at file://C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\2369\\Screen Home Tag\\3.png",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Home_Tag_3_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Home_Tag_4_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Home_Tag_4_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Screen_Home_Tag_4_0_document_0_default.png",
+        "label": "Screen Home Tag 4",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Home Tag/4.png",
+        "referenceUrl": "./backstop_data/2369/Screen Home Tag/4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Home_Tag_4_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Settings_1_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Settings_1_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Screen_Settings_1_0_document_0_default.png",
+        "label": "Screen Settings 1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Settings/1.png",
+        "referenceUrl": "./backstop_data/2369/Screen Settings/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Settings_1_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Settings_2_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Settings_2_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Screen_Settings_2_0_document_0_default.png",
+        "label": "Screen Settings 2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Settings/2.png",
+        "referenceUrl": "./backstop_data/2369/Screen Settings/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Settings_2_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Screen_Settings_3_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20231202-214808\\backstop_default_Screen_Settings_3_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Screen_Settings_3_0_document_0_default.png",
+        "label": "Screen Settings 3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "./backstop_data/2369/Screen Settings/3.png",
+        "referenceUrl": "./backstop_data/2369/Screen Settings/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\juand\\Git\\PruebasAutomarizadasGrupo9\\Cypress\\Semana 8\\backstop\\backstop_data\\bitmaps_reference\\backstop_default_Screen_Settings_3_0_document_0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
