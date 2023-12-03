@@ -313,6 +313,8 @@ Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 2. Navega al directorio del proyecto a Puppeteer/Semana 8
 3. Leer README dentro del directorio
 
+# Video Semana 8
+https://youtu.be/5hTm79csTto
 
 
 
