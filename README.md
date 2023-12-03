@@ -270,8 +270,9 @@ npm run cypress:run
 Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
 
 ### BackstopJS test
-Asegurese de tener instalado Python 3.9 o superior
-Asegurese de tener instalado backstopjs en su computador, en caso de no tenerlo utilice el comando
+* Correr en windows 10 o superior
+* Asegurese de tener instalado Python 3.9 o superior
+* Asegurese de tener instalado backstopjs en su computador, en caso de no tenerlo utilice el comando
 ```
 npm install -g backstopjs
 ```
