@@ -24,28 +24,29 @@ def create_file(num_vers1:int, num_vers2:int):
     f.write('  "onReadyScript": "puppet/onReady.js",\n')
     f.write('  "scenarios": [\n')
 
-    for test in range(data.data_t['num_test']):
-        f.write('    {\n')
-        f.write('      "label": "' + data.data_t['nom_tests'][test] + '",\n')
-        f.write('      "url": "./backstop_data/'+str(num_vers1)+'/'+data.data_t['nom_tests'][test]+'/'+str(test)+'.png",\n')
-        f.write('      "referenceUrl": "./backstop_data/'+str(num_vers2)+'/'+data.data_t['nom_tests'][test]+'/'+str(test)+'.png",\n')
-        f.write('      "readyEvent": "",\n')
-        f.write('      "readySelector": "",\n')
-        f.write('      "delay": 0,\n')
-        f.write('      "hideSelectors": [],\n')
-        f.write('      "removeSelectors": [],\n')
-        f.write('      "hoverSelector": "",\n')
-        f.write('      "clickSelector": "",\n')
-        f.write('      "postInteractionWait": 0,\n')
-        f.write('      "selectors": [],\n')
-        f.write('      "selectorExpansion": true,\n')
-        f.write('      "expect": 0,\n')
-        f.write('      "misMatchThreshold" : 0.1,\n')
-        f.write('      "requireSameDimensions": true\n')
-        if test == data.data_t['num_test']-1:
-            f.write('    }\n')
-        else:
-            f.write('    },\n')
+    for test_n in data.data_t['nom_tests']:
+        for ntest in range(test_n[1]):
+            f.write('    {\n')
+            f.write(f'      "label": "{test_n[0]} {ntest+1}",\n')
+            f.write(f'      "url": "./backstop_data/{num_vers1}/{test_n[0]}/{ntest+1}.png",\n')
+            f.write(f'      "referenceUrl": "./backstop_data/{num_vers2}/{test_n[0]}/{ntest+1}.png",\n')
+            f.write('      "readyEvent": "",\n')
+            f.write('      "readySelector": "",\n')
+            f.write('      "delay": 0,\n')
+            f.write('      "hideSelectors": [],\n')
+            f.write('      "removeSelectors": [],\n')
+            f.write('      "hoverSelector": "",\n')
+            f.write('      "clickSelector": "",\n')
+            f.write('      "postInteractionWait": 0,\n')
+            f.write('      "selectors": [],\n')
+            f.write('      "selectorExpansion": true,\n')
+            f.write('      "expect": 0,\n')
+            f.write('      "misMatchThreshold" : 0.1,\n')
+            f.write('      "requireSameDimensions": true\n')
+            if (data.data_t['nom_tests'].index(test_n) == len(data.data_t['nom_tests'])-1) and ntest == test_n[1]-1:
+                f.write('    }\n')
+            else:
+                f.write('    },\n')
 
     f.write('  ],\n')
     f.write('  "paths": {\n')
