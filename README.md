@@ -269,6 +269,36 @@ npm run cypress:run
 
 Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el password es : Maria9002$ por lo tanto realizar la creación previa en la aplicación Ghost
 
+### BackstopJS test
+Asegurese de tener instalado Python 3.9 o superior
+Asegurese de tener instalado backstopjs en su computador, en caso de no tenerlo utilice el comando
+```
+npm install -g backstopjs
+```
+Para hacer uso de la herramienta de debe correr los test de Cypress y obtener las carpetas con las capturas de pantalla, posteriormente copiar el archivo .bat.
+Guarde las imagenes de la ejecución de cada una de las pruebas en una carpeta con el nombre del test Cypress/Semana 8/backstop/backstop_data/2368 de la primera versión y en Cypress/Semana 8/backstop/backstop_data/2369 de la segunda versión, posteriormente cambie el archivo data.py con el nombre de los test y el numero de imagenes de cada test. Ahora ejecute el script con:
+```
+python generator.py
+```
+Use el comando para hacer la primera iteración de versiones:
+```
+backstop test
+```
+Una vez se ejecutaron los test use el comando:
+```
+backstop approve
+```
+Ahora ejecute nuevamente el script con:
+```
+python generator.py
+```
+Por ultimo pruebe los test nuevamente con el comando:
+```
+backstop test
+```
+El informe HTML se debe desplegar automaticamente en su navegador, puede ver el informe generado en la ultima ejecución en:
+Cypress/backstop/backstop_data/html_report/index.html
+
 # Puppeteer
 ### Descripción
 
