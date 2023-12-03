@@ -277,7 +277,7 @@ Para las pruebas de Cypress el email utilizado es : j.scoth@uniandes.edu.co y el
 npm install -g backstopjs
 ```
 Para hacer uso de la herramienta de debe correr los test de Cypress y obtener las carpetas con las capturas de pantalla, posteriormente copiar el archivo .bat que realiza el cambio de nombre de las imagenes.
-Guarde las imagenes de la ejecución de cada una de las pruebas en una carpeta con el nombre del test Cypress/Semana 8/backstop/backstop_data/2368 de la primera versión y en Cypress/Semana 8/backstop/backstop_data/2369 de la segunda versión, posteriormente cambie el archivo data.py con el nombre de los test y el numero de imagenes de cada test. Ahora ejecute el script con:
+Guarde las imagenes de la ejecución de cada una de las pruebas en una carpeta con el nombre del test Cypress/Semana 8/backstop/backstop_data/2368 de la primera versión y en Cypress/Semana 8/backstop/backstop_data/2369 de la segunda versión, posteriormente cambie el archivo data.py con el nombre de los test y el numero de imagenes de cada test. Ahora borre el archivo backstop.json, borre todo el contenido de Cypress/Semana 8/backstop/backstop_data/bitmaps_reference y ejecute el script con:
 ```
 python generator.py
 ```
