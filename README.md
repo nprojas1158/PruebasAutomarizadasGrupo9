@@ -297,7 +297,7 @@ Por ultimo pruebe los test nuevamente con el comando:
 backstop test
 ```
 El informe HTML se debe desplegar automaticamente en su navegador, puede ver el informe generado en la ultima ejecución en:
-Cypress/backstop/backstop_data/html_report/index.html
+Cypress/Semana 8/backstop/backstop_data/html_report/index.html
 
 # Puppeteer
 ### Descripción
