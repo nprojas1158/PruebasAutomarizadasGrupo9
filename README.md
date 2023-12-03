@@ -241,7 +241,7 @@ Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina.
 2. Navega al directorio del proyecto a Puppeteer/Semana 7
 3. Leer README dentro del directorio
 
-# semana 7
+# semana 8
 #  Cypress
 
 ### Descripción:  
